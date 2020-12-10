@@ -1,5 +1,5 @@
 import * as OctokitTypes from "@octokit/types";
-import LRUCache from "lru-cache";
+import * as LRUCache from "lru-cache";
 
 export type AnyResponse = OctokitTypes.OctokitResponse<any>;
 export type EndpointDefaults = OctokitTypes.EndpointDefaults;
